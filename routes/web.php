@@ -27,4 +27,4 @@ Route::get('password/reset/{token}','Auth\ResetPasswordController@showResetForm'
 //Route::get('register', 'Auth\RegisterController@showRegistrationForm')->name('register');
 //Route::post('register', 'Auth\RegisterController@register');
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/backend', 'HomeController@index')->name('dashboard');
